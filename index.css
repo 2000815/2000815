@@ -1,0 +1,22 @@
+body {
+    color: #002222;
+    background-color: papayawhip;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
+
+#submit{
+    margin-left: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.weatherMain{
+    margin-top: 20px;
+}
