@@ -1,0 +1,39 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>お天気付きメモlist</title>
+</head>
+
+<body class="bg-light">
+    <div class="container w-75">
+        <h1 class="text-center text-info my-4">memolist</h1>
+        <form id="form">
+            <input type="text" id="input" placeholder="memoを入力"　autocomplate="off" class="form-control">
+        </form>
+        <ul class="list-group text-secondary" id="ul"></ul>
+    </div>
+
+    
+    
+    <div class="weatherMain"> 
+        <h2>現在の東京の天気は</h2>
+        <div><span id = "weather" class="bold"></span></div>
+        <div><span id = "weatherMark" class="bold"></span></div>
+        <p id="icon"></p>
+    </div>
+    <div>気温　<span id = "temp"  class="bold"></span>　℃</div>
+    <div>湿度　<span id = "humidity" class="bold"></span>　%</div>
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
