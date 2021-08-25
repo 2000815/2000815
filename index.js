@@ -79,7 +79,7 @@ let cityName ='tokyo'
 
 
 var owmApiKey ="5a8421ab3c19a4d4cbd2fcf6903ac521";
-var owmURL = "http://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&APPID="+ owmApiKey +"";
+var owmURL = "https://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&APPID="+ owmApiKey +"";
 
 request.open('GET', owmURL);
 
